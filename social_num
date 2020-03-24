@@ -1,0 +1,11 @@
+id_num = input("Type in :")
+sum =int(id_num[0])*2 + int(id_num[1])*3 + int(id_num[2])*4 + int(id_num[3])*5 + int(id_num[4])*6 + int(id_num[5])*7 + int(id_num[7])*8 + int(id_num[8])*9 + int(id_num[9])*2 + int(id_num[10])*3 + int(id_num[11])*4 + int(id_num[12])*5
+
+reminder = sum % 11
+
+decision = 11-reminder
+
+if decision == int(id_num[13]):
+    print("valid")
+else:
+    print("invalid")
